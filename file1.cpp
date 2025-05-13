@@ -14,3 +14,9 @@ class BangunDatar{
        float lebar;
        float hitungLuas(){
         return panjang * lebar;
+       };
+       float hitungKeliling(){
+        return 2 * (panjang + lebar);
+
+       };
+
