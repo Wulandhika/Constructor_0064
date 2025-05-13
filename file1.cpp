@@ -28,3 +28,8 @@ class BangunDatar{
 
 };
 
+void PersegiPanjang::inputData(BangunDatar &bd){
+    cout << "Masukkan Panjang : ";
+    cin >> bd.panjang;
+    cout << "Masukkan Lebar : ";
+    cin >> bd.lebar;
