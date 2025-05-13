@@ -8,3 +8,9 @@ class PersegiPanjang{
        void outputData(BangunDatar &bd);
 };
 
+class BangunDatar{
+    private:
+       float panjang;
+       float lebar;
+       float hitungLuas(){
+        return panjang * lebar;
